@@ -1,0 +1,26 @@
+diff --git a/404.html b/404.html
+index 954e9bf..cb9a1f6 100644
+--- a/404.html
++++ b/404.html
+@@ -14,7 +14,7 @@
+     This is a placeholder for base href that will be replaced by the value of
+     the `--base-href` argument provided to `flutter build`.
+   -->
+-  <base href="/">
++  <base href="/public_portfolio/">
+ 
+   <meta charset="UTF-8">
+   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+diff --git a/index.html b/index.html
+index 954e9bf..cb9a1f6 100644
+--- a/index.html
++++ b/index.html
+@@ -14,7 +14,7 @@
+     This is a placeholder for base href that will be replaced by the value of
+     the `--base-href` argument provided to `flutter build`.
+   -->
+-  <base href="/">
++  <base href="/public_portfolio/">
+ 
+   <meta charset="UTF-8">
+   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
