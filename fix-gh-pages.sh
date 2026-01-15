@@ -30,11 +30,11 @@ git diff
 # Commit changes
 echo "💾 Committing changes..."
 git add index.html 404.html
-git commit -m "Fix base href for GitHub Pages deployment
-
-- Changed base href from '/' to '/public_portfolio/'
-- This fixes the blank page issue when accessing the site
-- All resources will now load from the correct path"
+git commit -m "Fix base href for GitHub Pages deployment" \
+           -m "" \
+           -m "- Changed base href from '/' to '/public_portfolio/'" \
+           -m "- This fixes the blank page issue when accessing the site" \
+           -m "- All resources will now load from the correct path"
 
 # Push changes
 echo "🚀 Pushing to gh-pages..."

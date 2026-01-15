@@ -37,4 +37,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build/web
-          cname: # Add custom domain if needed
+          # Uncomment and set if using a custom domain:
+          # cname: yourdomain.com
