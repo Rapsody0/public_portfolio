@@ -39,7 +39,8 @@
         location.hostname === 'localhost' ||
         location.hostname === '127.0.0.1'
       ) {
-      self.FIREBASE_APPCHECK_DEBUG_TOKEN = true;
+        // Debug token statico per sviluppo locale
+        self.FIREBASE_APPCHECK_DEBUG_TOKEN = "8b8690e0-9997-4e82-b0a1-892141d61a19";
     }
   </script>
   <script src="flutter_bootstrap.js" async></script>
